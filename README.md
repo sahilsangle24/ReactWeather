@@ -7,14 +7,13 @@ It allows users to search for any city and instantly view real-time weather deta
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home Page](./src/assets/screenshot/nashik.png)
+### 🏠Weather Result
+(./src/assets/screenshot/nashik.png.png)
 
-### 🔍 Search Weather
-![Search Weather](./src/assets/screenshot/pune.png)
+(./src/assets/screenshot/pune.png.png)
 
-### 🌦️ Weather Result
-![Weather Result](./src/assets/screenshot/design.png)
+### 🌦️ design Result
+(./src/assets/screenshot/design.png.png)
 
 
 ## ✨ Features
