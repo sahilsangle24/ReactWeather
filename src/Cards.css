@@ -1,0 +1,39 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  justify-items: center;
+  width: 95%;
+  margin: 20px auto; /* 🔹 add vertical spacing */
+  padding: 10px;      /* 🔹 slight inner padding */
+}
+
+/* Bigger card */
+.cards-container .MuiCard-root {
+  width: 380px;
+  height: 260px;
+  border-radius: 14px;
+  overflow: hidden;
+
+  /* Glass effect */
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(6px);
+
+  /* Smooth hover animation */
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border 0.35s ease;
+}
+
+/* Nice image scaling */
+.cards-container img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+/* Hover effects */
+.cards-container .MuiCard-root:hover {
+  transform: scale(1.06);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.45), 
+              0 8px 20px rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.4);
+}

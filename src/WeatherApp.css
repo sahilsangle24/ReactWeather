@@ -1,0 +1,71 @@
+/* WeatherApp.css — Premium with Improved Text + Hover */
+
+.weather {
+  width: 100%;
+  min-height: 100vh;
+
+  /* Gradient colors added back */
+ 
+  background-size: 600% 600%;
+  animation: bgFlow 14s ease infinite;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-family: "Segoe UI", sans-serif;
+  color: #f1f1f1; /* soft white text */
+}
+
+/* Main Heading */
+.weather h1 {
+  margin-top: 35px;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-align: center;
+
+  /* subtle glow */
+  text-shadow: 0px 3px 18px rgba(0, 0, 0, 0.35);
+
+  transition: 0.35s ease; /* smooth hover */
+}
+
+/* Hover effect — glowing heading */
+.weather h1:hover {
+  color: #dbe9ff; /* soft bluish highlight */
+  text-shadow: 0px 4px 28px rgba(255, 255, 255, 0.55);
+  transform: scale(1.03);
+}
+
+/* Animated gradient flow */
+@keyframes bgFlow {
+  0% {
+    background-position: 0% 30%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0% 30%;
+  }
+}
+.qoutes {
+   color: #dcee10;
+  transform: scale(1.05);
+  text-shadow: 0px 3px 12px rgba(255, 255, 255, 0.45),
+               0px 3px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.qoutes:hover {
+  color: #d44949;
+  transform: scale(1.05);
+  text-shadow: 0px 3px 12px rgba(255, 255, 255, 0.45),
+               0px 3px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
